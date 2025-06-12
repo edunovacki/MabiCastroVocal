@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@ body {
     background-color: white !important;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .offcanvas-start.custom-width {
@@ -97,7 +99,7 @@ main {
 
 .eventos {
     background-color: whitesmoke;
-    box-shadow: 0 0 10px #CCC;
+    border: 1px solid #CCC;
 }
 .container-eventos {
     h1 {
@@ -135,21 +137,13 @@ main {
 }
 
 .formulario {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -20%);
-    .btn {
-        position: absolute;
-        top: 140%;
-        left: 50%;
-        transform: translate(-50%, -140%);
-    }
+    max-width: 1000px;
 }
 .footer {
     background-color: whitesmoke;
     box-shadow: 0 0 10px #CCC;
     padding: 5px 0;
+    position: static;
     .icones {
         text-align: center;
         margin: 20px;
@@ -189,5 +183,4 @@ main {
     }
     
     }
-
 
