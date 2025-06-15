@@ -1,0 +1,220 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.offcanvas-start.custom-width {
+    width: 250px !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
+.navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+}
+header{
+    .navbar{
+        font-family: 'Roboto';
+        z-index: 1030;
+    }
+}
+main {
+    background-color: whitesmoke;
+    flex: 1;
+    size: 100%;
+    .principal {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 10px #CCC;
+    }
+
+    .titulo {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        color: rgb(31, 27, 27);
+        font-size: 130px;
+        text-align: center;
+        font-family: 'MonteCarlo';
+        z-index: 2;
+    }
+    h2{
+        .fa-arrow-down {
+        margin-top: 300px;
+    }
+    }
+    .botao2{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Roboto';
+        z-index: 2;
+        background-color: #2f5c31;
+        border: none;
+        padding: 10px 50px;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .fa-whatsapp {
+            font-size: 22px;
+            margin: 0 7px;
+        }
+    }
+    .btn:hover {
+        background-color: #224224;
+        color: white;
+    }
+
+    .row {
+        .col{
+            margin: 20px;
+            margin-top: 80px;
+            img{
+                width: 500px;
+                height: 700px;
+                box-shadow: 0 0 15px #CCC;
+            }
+            p {
+                font-family: roboto;
+                text-align: justify;
+                color: #525151;
+                font-size: 1.1rem;
+                
+            }
+            .fs-1 {
+                font-size: 130px !important;
+                font-family: 'MonteCarlo';
+                color: #333;
+            }
+        }
+    }
+}
+
+.eventos{
+    background-color: whitesmoke;
+    /*border: 1px solid #CCC;*/
+    box-shadow: 0 0 10px #CCC;
+}
+.container-eventos {
+    h1 {
+        margin: 35px;
+        font-family: 'MonteCarlo';
+        font-size: 100px;
+        color: #333;
+    }
+    h5,p{
+        font-family: 'Roboto';
+    }
+    hr {
+        border: 1px solid #CCC;
+    }
+    .row-videos {
+        .col-auto {
+        margin: 35px;
+        }
+    }
+    iframe{
+        border-radius: 5px 5px 0 0;
+    }
+}
+.repertorio-eventos {
+    background-color: white;
+}
+.container-repertorio-orcamento {
+    h1 {
+        margin-bottom: 35px;
+        font-family: 'MonteCarlo';
+        font-size: 100px;
+        color: #333;
+    }
+    p {
+        font-family: 'Roboto';
+    }
+    .row {
+        margin: 0 35px;
+        
+    }
+    hr {
+        border: 1px solid #CCC;
+    }
+}
+
+.formulario {
+    max-width: 1000px;
+    box-shadow: 0 0 10px #CCC;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    .btn{
+        text-align: center;
+        font-family: 'Roboto';
+        background-color: #2f5c31;
+        border: none;
+        padding: 10px 50px;
+        font-size: 25px;
+        margin: 30px 385px auto;
+
+    }
+}
+.footer {
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px #CCC;
+    padding: 5px 0;
+    position: static;
+    z-index: 1030;
+    text-align: center;
+    font-family: 'Roboto';
+    .icones {
+        text-align: center;
+        margin: 20px;
+    }
+    .icones a{
+        display: inline-flex;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+        background-color: rgb(218, 218, 218);
+        color: white;
+        margin: 0 6px;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        transition: 1s all;
+    }
+    .icones a:hover{
+        .fa-whatsapp{
+            color: rgb(14, 255, 14);
+            transition: 0.4s;
+        }
+        .fa-instagram{
+            color: rgb(255, 41, 77);
+            transition: 0.4s;
+        }
+    }
+    .nav a{
+        color: #525151;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 17px;
+        text-align: center;
+    }
+    .nav a:hover{
+        color: #202020;
+    }
+    
+    }
