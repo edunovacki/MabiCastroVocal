@@ -53,7 +53,10 @@ main {
     }
     h2{
         .fa-arrow-down {
-        margin-top: 300px;
+        position: absolute;
+        top: 127%;
+        left: 50%;
+        transform: translate(-50%, -127%);
     }
     }
     .botao2{
