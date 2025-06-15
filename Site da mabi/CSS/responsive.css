@@ -1,0 +1,453 @@
+
+.ratio-3x4 {
+    --bs-aspect-ratio: 133.33%;
+}
+
+.form-btn-enviar {
+    margin: 30px auto;
+    display: block;
+}
+
+.video-container {
+    position: relative;
+    width: 302px;
+    height: 400px;
+}
+
+.nav-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-footer .nav-item {
+    margin: 0 5px;
+    text-align: center;
+}
+
+.nav-footer .nav-link {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-event {
+    width: 302px;
+    box-shadow: 0 0 15px #CCC;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.repertorio-card,
+.orcamento-card {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #CCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.repertorio-orcamento p {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.repertorio-orcamento .lead {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.sobre-section {
+    padding: 40px 0;
+    margin-top: 150px;
+}
+
+.sobre-imagem {
+    width: 100%;
+    height: 650px;
+    max-width: 450px;
+    box-shadow: 0 0 15px #CCC;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.sobre-titulo {
+    font-family: 'MonteCarlo', cursive;
+    font-size: 100px;
+    color: #333;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.sobre-texto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #525151;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-family: 'MonteCarlo';
+    color: rgb(31, 27, 27);
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    line-height: 1.1;
+    font-size: 130px;
+    position: absolute;
+
+}
+
+.botao2 {
+    background-color: #2f5c31;
+    border: none;
+    padding: 10px 50px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-size: 30px !important;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.botao2 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao2 .fa-whatsapp {
+    font-size: 22px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.botao2:hover {
+    background-color: #224224;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.botao2:hover .fa-whatsapp {
+    transform: scale(1.2);
+}
+
+.formulario {
+        width: 80%;
+        margin-top: 130px !important;
+    }
+
+/* Em telas menores, centraliza e mantém a proporção */
+@media (max-width: 992px) {
+    .row.justify-content-center {
+        justify-content: center !important;
+    }
+    .nav-footer {
+        max-width: 100%;
+    }
+    .repertorio-orcamento h1 {
+        font-size: 80px !important;
+    }
+    
+    .repertorio-card,
+    .orcamento-card {
+        padding: 1.5rem !important;
+    }
+
+    .sobre-titulo {
+        font-size: 80px;
+    }
+    
+    .sobre-texto {
+        font-size: 1rem;
+    }
+
+    .hero-container {
+        min-height: 500px;
+    }
+    
+    .titulo {
+        font-size: 100px;
+    }
+    
+    .botao2 {
+        padding: 10px 40px;
+    }
+    
+    .botao2 a {
+        font-size: 30px;
+    }
+    .formulario {
+        width: 80%;
+        margin-top: 130px !important;
+    }
+}
+    
+@media (max-width: 768px) {
+    .sobre-titulo {
+        font-size: 80px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .sobre-texto {
+        font-size: 0.95rem;
+        text-align: justify;
+        margin: 0 30px;
+    }
+    
+    .col-imagem {
+        order: 2; /* Coloca a imagem depois do texto */
+        margin-top: 30px;
+    }
+    
+    .col-texto {
+        order: 1; /* Coloca o texto antes da imagem */
+    }
+    .hero-container {
+        min-height: 400px;
+        height: 70vh;
+    }
+    
+    .titulo {
+        font-size: 70px !important;
+    }
+    
+    .botao2 {
+        padding: 8px 35px;
+    }
+    
+    .botao2 a {
+        font-size: 25px;
+    }
+    .formulario {
+        width: 80%;
+        margin-top: 130px !important;
+    }
+}
+
+/* Telas pequenas (celulares) */
+@media (max-width: 576px) {
+
+    h1{
+        font-size: 80px !important;
+    }
+
+    .formulario .btn {
+        margin: 20px auto !important;
+        display: block;
+        max-width: 300px;
+    }
+    .formulario {
+        width: 80%;
+        margin-top: 130px !important;
+    }
+
+    .container-repertorio-orcamento .row,
+    .container .row {
+        flex-direction: column;
+    }
+
+    .col-md-6 {
+        width: 100% !important;
+    }
+
+    .row-videos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-container {
+        width: 100%;
+        height: auto;
+        padding-top: 132.45%; /* Proporção 400/302 = 1.3245 (132.45%) */
+    }
+    
+    .card-event {
+        width: 100%;
+        max-width: 302px;
+    }
+
+    .nav-footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px 10px;
+    }
+
+    .nav-footer .nav-item {
+        flex: 0 0 auto;
+        margin: 3px;
+    }
+    
+    .nav-footer .nav-link {
+        padding: 0.3rem 0.7rem;
+        font-size: 0.9rem;
+    }
+    .repertorio-orcamento {
+        padding: 1rem 0;
+    }
+    
+    .repertorio-orcamento h1 {
+        font-size: 70px !important;
+        line-height: 1.2;
+    }
+    
+    .repertorio-card,
+    .orcamento-card {
+        margin-bottom: 2rem;
+        padding: 1.25rem !important;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    
+    .repertorio-orcamento p {
+        font-size: 1rem;
+        text-align: left;
+    }
+    
+    .repertorio-orcamento .lead {
+        font-size: 1.1rem;
+    }
+    
+
+    .container-repertorio-orcamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .sobre-section {
+        padding: 20px 0;
+    }
+    
+    .sobre-titulo {
+        font-size: 60px;
+        line-height: 1.1;
+    }
+    
+    .sobre-texto {
+        font-size: 0.9rem;
+        margin: 0 30px;
+    }
+    
+    .col-imagem {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .hero-container {
+        min-height: 350px;
+        height: 60vh;
+    }
+    
+    .titulo {
+        font-size: 65px !important;
+    }
+    
+    .botao2 {
+        padding: 8px 30px;
+    }
+    
+    .botao2 a {
+        font-size: 25px;
+    }
+    
+    .botao2 .fa-whatsapp {
+        font-size: 18px;
+    }
+}
+
+@media (min-height: 900px) {
+    .hero-container {
+        height: 80vh;
+    }
+    
+    .titulo {
+        font-size: 140px;
+    }
+}
+
+/* Telas médias (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .titulo {
+        font-size: 90px !important;
+    }
+    
+    .formulario .btn {
+        margin: 20px auto !important;
+        display: block;
+    }
+
+    .row-videos {
+        justify-content: center !important;
+        flex-wrap: wrap;
+    }
+
+    .video-container {
+        width: 302px;
+        height: 400px;
+    }
+}
+
+/* Telas grandes (desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .video-container {
+        width: 302px;
+        height: 400px;
+    }
+}
